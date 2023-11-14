@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 import ReactDOM from 'react-dom/client';
 import { 
   BrowserRouter, Route, Routes,Navigate
 } from 'react-router-dom';
 import Welcome from './welcome';
-import Officalpage from './officalpage';
-import Location from './location';
-import Temperature from './temperature';
-import Petinfo from './petinfo';
+import Officalpage from './mainpages/officalpage';
+import Location from './mainpages/location';
+import Temperature from './mainpages/temperature';
+import Petinfo from './mainpages/petinfo';
+import Leaflet from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
+Leaflet.Icon.Default.imagePath =
+  '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/'
 
 function App() {
   return (

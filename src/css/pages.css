@@ -1,6 +1,16 @@
+.label{
+    color:black;
+    padding: 1vh;
+    margin: 10px;
+    text-size-adjust: 200px;
+    background-color: bisque;
+}
+
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
 }
+    
+

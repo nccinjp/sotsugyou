@@ -1,13 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import logo from "./logo.svg";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/header.css';
+import logo from "../logo.svg";
+import '../css/header.css';
 
 export default function header(){
     return(
-        
         <Navbar expand="lg">
         <Container>
             <Navbar.Brand >
@@ -34,15 +32,3 @@ export default function header(){
     );
 }
 
-
-// import React from 'react';
-// import Headerstyle from './headerstyle.css';
-
-// const header = () => {
-//     return (
-//         <header>
-//         </header>
-//     )
-// }
-
-// export default header

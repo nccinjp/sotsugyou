@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+// このfileはtest用のやつ
 
 export default class SimpleExample extends Component {
     render() {
@@ -13,7 +14,7 @@ export default class SimpleExample extends Component {
             />
             <Marker position={position}>
             <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
+                Your click and popup <br />  here's the spot
             </Popup>
             </Marker>
         </MapContainer>
